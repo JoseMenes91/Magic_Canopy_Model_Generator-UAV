@@ -2,7 +2,7 @@
 
 
 
-🛠 Installation
+##🛠 Installation
 Download or clone this repository.
 Copy the  folder into your local QGIS plugins directory: (e.g., C:\Users\YourUser\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins).
 
@@ -33,7 +33,7 @@ Tip: For greater ease, you can use the true-color orthomosaic as a guide to plac
 <img width="626" height="398" alt="image" src="https://github.com/user-attachments/assets/2d5aa10a-b9f8-4492-a506-b96c6c86a533" />
 
 
-### 4. Run the Magic (TPS + LOOCV) ⚡
+### 4. Run the interpolation ⚡
 Once you have marked the points for interpolation (we recommend ensuring sufficient representation across all areas), click "Run TPS Interpolation
 
 The plugin uses the Thin Plate Spline (TPS) algorithm to interpolate the reference points and generate a continuous Digital Terrain Model (DTM) beneath the crop canopy.

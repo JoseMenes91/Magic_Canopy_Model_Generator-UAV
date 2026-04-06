@@ -1,5 +1,11 @@
 
 CVM (Canopy Volume Model): The calculated volume per pixel in cubic meters (m³).
+<p align="center">
+  <img src="icon.png" width="300">
+</p><p align="center">
+  <img src="icon.png" width="300">
+</p>
+
 🛠 Installation
 Download or clone this repository.
 Copy the microplot_generator folder into your local QGIS plugins directory: (e.g., C:\Users\YourUser\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins).
@@ -37,6 +43,7 @@ DTM (Digital Terrain Model): The estimated soil surface.
 CHM (Canopy Height Model): The true height of your plants (DSM - DTM).
 
 CVM (Canopy Volume Model): The calculated volume per pixel (Height × Spatial Resolution).
+
 ---
 ## 💾 Saving Your Work
 The generated layers live in your computer's RAM for maximum speed. If you want to keep them:

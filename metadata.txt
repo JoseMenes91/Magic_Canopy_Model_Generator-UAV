@@ -1,0 +1,13 @@
+[general]
+name=Magic Canopy Model Generator - UAV
+description=Calcula la altura de canopeo (plantas) a partir de un MDS de drone usando interpolación TPS.
+about=Herramienta interactiva que permite marcar puntos de suelo en un Modelo Digital de Superficie (MDS), interpolar un Modelo Digital de Terreno (MDT) mediante Thin Plate Spline, y obtener automáticamente la Altura de Canopeo (MAC) y el Volumen de Canopeo (MVC).
+version=1.0
+author=José Fernando Menes
+email=menes.josefernando@inta.gob.ar
+repository=
+category=Raster
+tags=dsm,dtm,chm,cvm,dem,terrain,canopy,height,uav,drone,magic,inta,tps,agriculture
+qgisMinimumVersion=3.0
+icon=icon.png
+experimental=False

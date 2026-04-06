@@ -1,8 +1,10 @@
+## Magic Canopy Model Generator-UAV
+
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/919f9fcf-076b-449e-9f2c-689d3f03fa36" />
 
 
 
-##🛠 Installation
+## 🛠 Installation
 Download or clone this repository.
 Copy the  folder into your local QGIS plugins directory: (e.g., C:\Users\YourUser\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins).
 

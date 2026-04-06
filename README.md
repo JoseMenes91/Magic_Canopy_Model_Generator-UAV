@@ -2,11 +2,13 @@
 
 <p align="center">
   <img src="icon.png" width="300">
-</p>
+</p><img width="554" height="554" alt="image" src="https://github.com/user-attachments/assets/8f9643d8-7cae-4192-8355-d52f65f8b354" />
+
+
 
 🛠 Installation
 Download or clone this repository.
-Copy the microplot_generator folder into your local QGIS plugins directory: (e.g., C:\Users\YourUser\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins).
+Copy the  folder into your local QGIS plugins directory: (e.g., C:\Users\YourUser\AppData\Roaming\QGIS\QGIS3\profiles\default\python\plugins).
 
 <img width="651" height="341" alt="image" src="https://github.com/user-attachments/assets/c1505953-ed6c-4040-829d-d9f848e1e73c" />
 <img width="988" height="750" alt="image" src="https://github.com/user-attachments/assets/d0b5331a-b370-419e-b23d-7687c85575f0" />

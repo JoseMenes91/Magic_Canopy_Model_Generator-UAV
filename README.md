@@ -2,7 +2,11 @@
 
 <img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/919f9fcf-076b-449e-9f2c-689d3f03fa36" />
 
+Magic Canopy Model Generator - UAV is a QGIS plugin designed to estimate plant height and volume, focused primarily on microplot agricultural trials, using digital elevation models obtained via drones.
 
+Normally, a Digital Terrain Model (DTM) is required to calculate crop height. In annual crops, this could be easily solved by conducting a flight during the sowing stage to capture the bare soil. However, this approach demands maintaining perfect and constant georeferencing in every subsequent flight—a critical challenge in agricultural trials, where a displacement of just a few centimeters can cause data to be assigned to the wrong plot.
+
+To solve this problem, the plugin takes advantage of bare soil points (which are common in the spaces between plots) and, through a spatial interpolation process, generates an estimated DTM directly from the current flight. The tool then subtracts this generated DTM from the original digital model to obtain a plant height model (Canopy Height Model). Finally, by multiplying this height by the pixel area, the plugin calculates and outputs a volume model per pixel.
 
 ## 🛠 Installation
 Download or clone this repository.
